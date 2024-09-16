@@ -1,0 +1,41 @@
+/* Loader css */
+/* CSS for a slow spin animation */
+@keyframes spin-slow {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .animate-spin-slow {
+    animation: spin-slow 4s linear infinite;
+  }
+  
+  .bg-whit {
+    background-color: #fff; /* Adjust to your background color */
+  }
+  
+/* loader css */
+
+
+/* Navbar NebulaNet logo text color waves starts */
+
+@keyframes text-wave {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .animate-text-wave {
+    background-size: 200% 200%;
+    animation: text-wave 4s ease infinite;
+  }
+  /* Navbar NebulaNet logo text color waves ends */
