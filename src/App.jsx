@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import Loader from './Components/Loader';
 import HeaderSection from './Components/HeaderSection';
+import Whatsapp from './Components/Whatsapp';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,6 +32,7 @@ function App() {
               <>
               <Navbar/>
               <HeaderSection />
+              <Whatsapp/>
               </>
             } />
             {/* Add other routes as needed */}

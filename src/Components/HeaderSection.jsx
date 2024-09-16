@@ -1,4 +1,13 @@
 import React from 'react'
+import { ReactTyped } from "react-typed";
+
+const slogans = [
+  "Empowering Your Digital Presence",
+  "Crafting Tomorrow's Digital Experiences",
+  "Innovative Solutions for Online Success",
+  "Your Partner in Digital Growth",
+  "Transforming Ideas into Digital Excellence"
+];
 
 const HeaderSection= () => {
   return (
@@ -11,7 +20,24 @@ const HeaderSection= () => {
             </div>
           </div>
           <div className='text-center'>
-            <h1 className='text-4xl font-bold tracking-tight text-violet sm:text-6xl'>Data to enrich your online business</h1>
+        
+   
+
+    <ReactTyped
+      strings={[
+       "Empowering Your Digital Presence",
+  "Crafting Tomorrow's Digital Experiences",
+  "Innovative Solutions for Online Success",
+  "Your Partner in Digital Growth",
+  "Transforming Ideas into Digital Excellence"
+      ]}
+      typeSpeed={40}
+      backSpeed={50}
+      attr="placeholder"
+      loop
+    >
+      <input type="text" className="w-full text-center text-violet font-bold text-2xl" />
+    </ReactTyped>
             <p className='mt-6 text-lg leading-8 text-gray-600'>
               NebulaNet offers world-class web development and design services to give your business a professional online presence.
             </p>
