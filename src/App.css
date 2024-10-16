@@ -39,3 +39,8 @@
     animation: text-wave 4s ease infinite;
   }
   /* Navbar NebulaNet logo text color waves ends */
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
