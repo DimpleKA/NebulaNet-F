@@ -54,6 +54,36 @@ function App() {
         } />
 
 
+<Route path="/career" element={
+          <>
+            <Navbar />
+           <ClientTestimony/>
+            <Footer/>
+            <Whatsapp />
+          </>
+        } />
+
+
+<Route path="/contact-us" element={
+          <>
+            <Navbar />
+           <ClientTestimony/>
+            <Footer/>
+            <Whatsapp />
+          </>
+        } />
+
+
+<Route path="/support" element={
+          <>
+            <Navbar />
+           <ClientTestimony/>
+            <Footer/>
+            <Whatsapp />
+          </>
+        } />
+
+
 
 
 

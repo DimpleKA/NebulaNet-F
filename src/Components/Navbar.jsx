@@ -42,7 +42,7 @@ const Navbar = () => {
               <Link to="/" className='text-sm font-semibold leading-6 text-violet'>Home</Link>
               <Link to="/aboutus" className='text-sm font-semibold leading-6 text-violet'>About Us</Link>
               <Link to="/projects" className='text-sm font-semibold leading-6 text-violet'>Projects</Link>
-              <Link to="/careers" className='text-sm font-semibold leading-6 text-violet'>Careers</Link>
+              <Link to="/career" className='text-sm font-semibold leading-6 text-violet'>Careers</Link>
               <Link to="/contact-us" className='text-sm font-semibold leading-6 text-violet'>Contact Us</Link>
               <Link to="/support" className='text-sm font-semibold leading-6 text-violet'>Technical Support</Link>
               <a href='tel:8123573669' className='text-sm font-semibold leading-6 text-violet'>Call Us: 812-357-3669</a>
