@@ -118,7 +118,7 @@ export default function AboutUs() {
             <div className="mt-6">
               <iframe
                 className="w-full h-60 border-0 rounded-lg shadow-lg"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.643226644909!2d-122.4194182846816!3d37.77492927975953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085816f03d6e75b%3A0x5a1efc8f08f26a6d!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1657174925714!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.0027119447855!2d77.60635597507537!3d12.90754688740193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x44bb07227a52240b%3A0xc487f0d4e31ec0ac!2sNebulaNet%20(Website%20Apps%20Solutions)!5e0!3m2!1sen!2sin!4v1729063683778!5m2!1sen!2sin"
                 allowFullScreen=""
                 loading="lazy"
               ></iframe>

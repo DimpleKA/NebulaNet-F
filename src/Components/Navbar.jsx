@@ -40,7 +40,7 @@ const Navbar = () => {
             </div>
             <div className='hidden lg:flex lg:gap-x-12'>
               <Link to="/" className='text-sm font-semibold leading-6 text-violet'>Home</Link>
-              <Link to="out-us" className='text-sm font-semibold leading-6 text-violet'>About Us</Link>
+              <Link to="/aboutus" className='text-sm font-semibold leading-6 text-violet'>About Us</Link>
               <Link to="/projects" className='text-sm font-semibold leading-6 text-violet'>Projects</Link>
               <Link to="/careers" className='text-sm font-semibold leading-6 text-violet'>Careers</Link>
               <Link to="/contact-us" className='text-sm font-semibold leading-6 text-violet'>Contact Us</Link>

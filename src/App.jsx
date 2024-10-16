@@ -9,6 +9,8 @@ import Whatsapp from './Components/Whatsapp';
 import NotFound from './Components/NotFound';
 import Footer from './Components/Footer';
 import AboutUs from './Components/AboutUs';
+import AboutUSS from './Components/AboutUSS';
+import ClientTestimony from './Components/ClientTestimony';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,6 +28,37 @@ function App() {
             <Whatsapp />
           </>
         } />
+
+
+
+
+<Route path="/aboutus" element={
+          <>
+            <Navbar />
+           <AboutUSS/>
+            <Footer/>
+            <Whatsapp />
+          </>
+        } />
+
+
+
+
+<Route path="/projects" element={
+          <>
+            <Navbar />
+           <ClientTestimony/>
+            <Footer/>
+            <Whatsapp />
+          </>
+        } />
+
+
+
+
+
+
+
         {/* Add other routes as needed */}
         <Route path="*" element={<NotFound />} /> {/* This will catch all unmatched routes */}
       </Routes>
