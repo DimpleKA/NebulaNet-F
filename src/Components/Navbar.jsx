@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import NebulaNet from '../assets/nebulanetlogo.png';
+import './Navbar.css'
 
 
 const Navbar = () => {
@@ -14,7 +15,7 @@ const Navbar = () => {
 
   return (
 
-      <div className={`${hidden} bg-whit`} >
+      <div className={`${hidden} bg-nebula`} >
         <header className='absolute inset-x-0 top-0 z-50'>
           <nav className='flex items-center justify-between p-6 lg:px-8' aria-label='Global'>
             <div className='flex lg:flex-1'>
@@ -44,7 +45,7 @@ const Navbar = () => {
               <Link to="/projects" className='text-sm font-semibold leading-6 text-violet'>Projects</Link>
               <Link to="/career" className='text-sm font-semibold leading-6 text-violet'>Careers</Link>
               <Link to="/contact-us" className='text-sm font-semibold leading-6 text-violet'>Contact Us</Link>
-              <Link to="/support" className='text-sm font-semibold leading-6 text-violet'>Technical Support</Link>
+              <Link to="/courses" className='text-sm font-semibold leading-6 text-violet'>Courses</Link>
               <a href='tel:8123573669' className='text-sm font-semibold leading-6 text-violet'>Call Us: 812-357-3669</a>
             </div>
             <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
@@ -79,7 +80,7 @@ const Navbar = () => {
                       <Link to="/projects" className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-violet hover:bg-gray-50'>Projects</Link>
                       <Link to="/careers" className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-violet hover:bg-gray-50'>Careers</Link>
                       <Link to="/contact-us" className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-violet hover:bg-gray-50'>Contact Us</Link>
-                      <Link to="/support" className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-violet hover:bg-gray-50'>Technical Support</Link>
+                      <Link to="/courses" className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-violet hover:bg-gray-50'>Courses</Link>
                       <a href='tel:8123573669' className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-violet hover:bg-gray-50'>Call Us: 812-357-3669</a>
                     </div>
                     <div className='py-6'>

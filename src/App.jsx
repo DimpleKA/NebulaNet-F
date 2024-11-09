@@ -11,6 +11,8 @@ import Footer from './Components/Footer';
 import AboutUs from './Components/AboutUs';
 import AboutUSS from './Components/AboutUSS';
 import ClientTestimony from './Components/ClientTestimony';
+import Careers from './Components/Careers';
+import Courses from './Components/Courses/Courses';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -57,7 +59,7 @@ function App() {
 <Route path="/career" element={
           <>
             <Navbar />
-           <ClientTestimony/>
+           <Careers/>
             <Footer/>
             <Whatsapp />
           </>
@@ -74,10 +76,10 @@ function App() {
         } />
 
 
-<Route path="/support" element={
+<Route path="/courses" element={
           <>
             <Navbar />
-           <ClientTestimony/>
+       <Courses/>
             <Footer/>
             <Whatsapp />
           </>
