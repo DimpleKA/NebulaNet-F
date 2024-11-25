@@ -13,6 +13,10 @@ import AboutUSS from './Components/AboutUSS';
 import ClientTestimony from './Components/ClientTestimony';
 import Careers from './Components/Careers';
 import Courses from './Components/Courses/Courses';
+import CourseId from './Components/Courses/CourseId';
+import SpecificJob from './Components/SpecificJob';
+import FirstClass from './ClassCom/FirstClass';
+import ChatBotVatsal from './Components/chatbotkit/ChatBotVatsal';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -23,11 +27,12 @@ function App() {
         <Route path="/" element={<Loader />} />
         <Route path="/home" element={
           <>
-            <Navbar />
+            {/* <Navbar />
             <HeaderSection />
             <AboutUs/>
             <Footer/>
-            <Whatsapp />
+            <Whatsapp /> */}
+            <ChatBotVatsal/>
           </>
         } />
 
@@ -40,6 +45,12 @@ function App() {
            <AboutUSS/>
             <Footer/>
             <Whatsapp />
+          </>
+        } />
+
+<Route path="/class" element={
+          <>
+        <FirstClass/>
           </>
         } />
 
@@ -66,6 +77,17 @@ function App() {
         } />
 
 
+<Route path="/career/:jobId" element={
+          <>
+            <Navbar />
+           <SpecificJob/>
+            <Footer/>
+            <Whatsapp />
+          </>
+        } />
+
+
+
 <Route path="/contact-us" element={
           <>
             <Navbar />
@@ -85,6 +107,19 @@ function App() {
           </>
         } />
 
+<Route
+  path="/courses/:courseId"
+  element={
+    <>
+      <Navbar />
+      <CourseId />
+      <Footer />
+      <Whatsapp />
+    </>
+  }
+/>
+
+
 
 
 
@@ -99,4 +134,3 @@ function App() {
 }
 
 export default App;
-

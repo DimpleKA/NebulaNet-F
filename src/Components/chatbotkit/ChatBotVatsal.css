@@ -1,0 +1,67 @@
+/* General container styling */
+.chatbot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 400px;
+    background: linear-gradient(135deg, #ffffff, #f3f3f3);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Chatbot header styling */
+  .chatbot-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+  }
+  
+  /* Chatbot body styling */
+  .chatbot-body {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Chatbot-specific styles (if the library supports additional CSS classes) */
+  .react-chatbot-kit-chat-container {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .react-chatbot-kit-chat-message {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #333333;
+  }
+  
+  /* Chatbot scrollbar customization */
+  .react-chatbot-kit-chat-message-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #cccccc #f9f9f9;
+  }
+  
+  .react-chatbot-kit-chat-message-scroll::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .react-chatbot-kit-chat-message-scroll::-webkit-scrollbar-track {
+    background: #f9f9f9;
+  }
+  
+  .react-chatbot-kit-chat-message-scroll::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+    border-radius: 
+  

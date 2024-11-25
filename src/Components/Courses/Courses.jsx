@@ -9,7 +9,7 @@ const Courses = () => {
       {/* Your content here */}
       <div className="relative z-10 text-white p-6">
         <h1 className="text-4xl">Courses</h1>
-        <p>Explore our wide range of courses available for all levels.</p>
+        <p className='p-6' >Explore our wide range of courses available for all levels.</p>
 
 {/* courses seciton starts */}
 <div className='w-full lg:flex'>

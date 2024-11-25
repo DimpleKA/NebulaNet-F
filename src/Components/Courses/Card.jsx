@@ -14,7 +14,7 @@ const Cards = (props) => {
         imageLink: "https://assets-prd.ignimgs.com/2023/03/23/keanu-best-stunts-oo-1679595095548.jpg",
         title: "John Wick",
         description: "This is why I killed his dog",
-        videoLink: "/john/wick/kjh.mp4"
+        videoLink: "/courses/1"
     });
 
     const gotoCourse = async (videoLink) => {

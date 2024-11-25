@@ -8,21 +8,21 @@ const jobListings = [
     location: 'Remote',
     type: 'Internship',
     description: 'We are looking for a passionate frontend developer intern proficient in React and Tailwind CSS.',
-    applyLink: 'https://example.com/apply/frontend-intern'
+    applyLink: 'http://localhost:5173/career/1234'
   },
   {
     title: 'Backend Developer',
     location: 'Mumbai, India',
     type: 'Full-time',
     description: 'Join our team as a backend developer working with Node.js, Express, and MongoDB.',
-    applyLink: 'https://example.com/apply/backend-dev'
+    applyLink: 'http://localhost:5173/career/2345'
   },
   {
     title: 'UI/UX Designer',
     location: 'Remote',
     type: 'Contract',
     description: 'We need a creative UI/UX designer with experience in Figma and Adobe XD.',
-    applyLink: 'https://example.com/apply/uiux-designer'
+    applyLink: 'http://localhost:5173/career/5678'
   }
 ];
 
