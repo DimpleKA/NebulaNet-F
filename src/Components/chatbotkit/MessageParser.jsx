@@ -6,6 +6,11 @@ const MessageParser = ({ children, actions }) => {
         console.log('Hello. Nice to meet you.' );
         actions.handleHello(); //trigger the createe action
       }
+
+      if (message.includes('Vatsal')) {
+        console.log('Hello Boss! Are we ready to work' );
+        actions.handleBoss(); //trigger the createe action
+      }
   };
 
   return (

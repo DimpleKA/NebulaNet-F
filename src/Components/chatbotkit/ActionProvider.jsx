@@ -12,6 +12,14 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
         }));
       };
 
+    const handleBoss= ()=>{
+        const botMessage = createChatBotMessage("Hello Vatsal! Are you ready to work ?");
+        setState((prev)=>({
+            ...prev,
+        messages: [...prev.messages, botMessage],
+        }))
+    }
+// handle action over 
 
 
 
@@ -21,6 +29,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
         return React.cloneElement(child, {
           actions: {
             handleHello,  //action is paased here
+            handleBoss,
           },
         });
       })}
