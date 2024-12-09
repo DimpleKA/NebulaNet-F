@@ -16,7 +16,8 @@ import Courses from './Components/Courses/Courses';
 import CourseId from './Components/Courses/CourseId';
 import SpecificJob from './Components/SpecificJob';
 import FirstClass from './ClassCom/FirstClass';
-import ChatBotVatsal from './Components/chatbotkit/ChatBotVatsal';
+
+import ChatBotVat from './Components/chatbotkit/ChatBotVatsal';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,12 +28,12 @@ function App() {
         <Route path="/" element={<Loader />} />
         <Route path="/home" element={
           <>
-            {/* <Navbar />
+            <Navbar />
             <HeaderSection />
             <AboutUs/>
             <Footer/>
-            <Whatsapp /> */}
-            <ChatBotVatsal/>
+            <Whatsapp />
+          
           </>
         } />
 
